@@ -14,5 +14,5 @@ ENV KEYCLOAK_ADMIN=admin \
     KC_HOSTNAME=keycloak-eqg9.onrender.com
 
 # Set the command to start Keycloak with specified options
-CMD ["start", "--optimized", "--db=postgres"]
+CMD ["start", "--db=postgres"]
 
