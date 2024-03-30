@@ -13,5 +13,5 @@ ENV KEYCLOAK_ADMIN=admin \
     KC_DB_PASSWORD=WUNfz0PsMctOWHtAciLLz1p4zP5HISav
 
 # Set the command to start Keycloak with specified options
-CMD ["start", "--auto-build", "--db=postgres"]
+CMD ["start", "--db=postgres"]
 
