@@ -10,7 +10,8 @@ ENV KEYCLOAK_ADMIN=admin \
     KC_DB=postgres \
     KC_DB_URL=jdbc:postgresql://keycloak_871l_user:WUNfz0PsMctOWHtAciLLz1p4zP5HISav@dpg-co44tgcf7o1s738ojaug-a.oregon-postgres.render.com:5432/keycloak_871l \
     KC_DB_USERNAME=keycloak_871l_user \
-    KC_DB_PASSWORD=WUNfz0PsMctOWHtAciLLz1p4zP5HISav
+    KC_DB_PASSWORD=WUNfz0PsMctOWHtAciLLz1p4zP5HISav \
+    KC_HOSTNAME=keycloak-eqg9.onrender.com
 
 # Set the command to start Keycloak with specified options
 CMD ["start", "--optimized", "--db=postgres"]
